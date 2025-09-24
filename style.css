@@ -142,7 +142,6 @@ ul {
     text-align: center;
 }
 
-/* Botón de sortear título */
 .button-draw {
     display: flex;
     align-items: center;
@@ -159,4 +158,21 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+    padding: 15px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer .nombre {
+    font-weight: bold;
+    color: #fe652b;
+    transition: all 0.3s ease;
 }
